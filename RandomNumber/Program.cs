@@ -12,6 +12,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IRandomService,RandomNumberService>();
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
